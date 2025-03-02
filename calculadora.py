@@ -16,6 +16,9 @@ def calculadora(): #def serve para definir parametros no codigo para deixa-lo ma
         resultado = num1 / num2
         print("{} {} {} = {}" .format(num1, op, num2, resultado))
               
+    elif op == '*':
+        resultado = num1 * num2
+        print("{} {} {} = {}" .format(num1, op, num2, resultado))
         
     else:
         print("Por favor, digite um operador válido.")
